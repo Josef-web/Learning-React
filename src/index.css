@@ -37,3 +37,21 @@
 .student p {
   margin: 0;
 }
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: #34f31c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: #e32828;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
