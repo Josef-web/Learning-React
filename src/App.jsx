@@ -6,6 +6,7 @@ import Button from "./Button/Button.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from './List.jsx';
+import ProfilePicture from "./ProfilePicture.jsx";
 
 function App() {
 
@@ -24,14 +25,10 @@ function App() {
         return(
         <>
             <Header/>
-
             <Food/>
-
             <Card/>
             <Card/>
             <Card/>
-
-            <Button/>
 
             <Student name='Spongebob' age={30} isStudent={true}/>
             <Student name='Patrick' age={42} isStudent={false}/>
@@ -43,6 +40,9 @@ function App() {
                 {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
                 {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
 
+
+            <Button/>
+            <ProfilePicture/>
             <Footer/>
         </>
     );
