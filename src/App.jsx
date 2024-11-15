@@ -11,6 +11,7 @@ import SetterFunctions from "./SetterFunctions.jsx";
 import Counter from "./Counter.jsx";
 import MyComponent from "./MyComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
+import Car from "./Car.jsx";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         return(
         <>
             <Header/>
+            <Car/>
             <Food/>
             <Card/>
             <Card/>
