@@ -10,6 +10,7 @@ import ProfilePicture from "./ProfilePicture.jsx";
 import SetterFunctions from "./SetterFunctions.jsx";
 import Counter from "./Counter.jsx";
 import MyComponent from "./MyComponent.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
             <SetterFunctions/>
             <Counter/>
             <MyComponent/>
+            <ColorPicker/>
             <Footer/>
         </>
     );
