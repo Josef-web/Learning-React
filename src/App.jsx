@@ -12,6 +12,7 @@ import Counter from "./Counter.jsx";
 import MyComponent from "./MyComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import Car from "./Car.jsx";
+import ArrayList from "./ArrayList.jsx";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         return(
         <>
             <Header/>
+            <ArrayList/>
             <Car/>
             <Food/>
             <Card/>
