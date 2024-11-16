@@ -13,6 +13,7 @@ import MyComponent from "./MyComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import Car from "./Car.jsx";
 import ArrayList from "./ArrayList.jsx";
+import ArrayOfObjects from "./ArrayOfObjects.jsx";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         return(
         <>
             <Header/>
+            <ArrayOfObjects/>
             <ArrayList/>
             <Car/>
             <Food/>
