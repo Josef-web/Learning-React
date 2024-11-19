@@ -14,6 +14,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import Car from "./Car.jsx";
 import ArrayList from "./ArrayList.jsx";
 import ArrayOfObjects from "./ArrayOfObjects.jsx";
+import ToDoList from "./ToDoList.jsx";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         return(
         <>
             <Header/>
+            <ToDoList/>
             <ArrayOfObjects/>
             <ArrayList/>
             <Car/>
