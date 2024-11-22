@@ -15,6 +15,7 @@ import Car from "./Car.jsx";
 import ArrayList from "./ArrayList.jsx";
 import ArrayOfObjects from "./ArrayOfObjects.jsx";
 import ToDoList from "./ToDoList.jsx";
+import UseEffectHook from "./UseEffectHook.jsx";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         return(
         <>
             <Header/>
+            <UseEffectHook/>
             <ToDoList/>
             <ArrayOfObjects/>
             <ArrayList/>
