@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body{
   font-family: Arial, sans-serif;
   text-align: center;
@@ -237,3 +241,13 @@ ol > li{
   font-size: 1.4rem;
   margin-left: 10px;
 }
+
+
+/* ComponentA */
+
+.box{
+  border:3px solid;
+  padding: 25px;
+  background-color: white;
+}
+
