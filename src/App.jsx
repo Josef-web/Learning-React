@@ -20,6 +20,8 @@ import UseEffectHook from "./UseEffectHook.jsx";
 import DigitalClock from "./Digital-Clock/DigitalClock.jsx";
 import {BrowserRouter as Router, createBrowserRouter, Routes, Route, RouterProvider, Link, useNavigate} from "react-router-dom";
 import ComponentA from "./ComponentA.jsx";
+import UseRefHook from "./UseRefHook.jsx";
+import Stopwatch from "./Stopwatch/Stopwatch.jsx";
 
 function App() {
 
@@ -154,6 +156,18 @@ function App() {
                                                     ComponentA
                                                 </Link>
                                             </li>
+                                            <li className="rounded-lg shadow-sm bg-white hover:bg-gray-200 transition">
+                                                <Link to="/use-ref-hook"
+                                                      className="block px-4 py-2 text-gray-700 font-semibold">
+                                                    UseRefHook
+                                                </Link>
+                                            </li>
+                                            <li className="rounded-lg shadow-sm bg-white hover:bg-gray-200 transition">
+                                                <Link to="/stopwatch"
+                                                      className="block px-4 py-2 text-gray-700 font-semibold">
+                                                    Stopwatch
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </nav>
                                     {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
@@ -181,6 +195,8 @@ function App() {
                         <Route path="/color-picker" element={<ColorPicker />} />
                         <Route path="/digital-clock" element={<DigitalClock />} />
                         <Route path="/component-a" element={<ComponentA />} />
+                        <Route path="/use-ref-hook" element={<UseRefHook />} />
+                        <Route path="/stopwatch" element={<><Stopwatch /><Stopwatch /><Stopwatch /></>} />
                     </Routes>
                 </Router>
             </>
